@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+</head>
+<body>
+    <h1>Titulo de mi web</h1>
+    <h2>Bienvenidos a mi web</h2>
+    <p>Lorem Ipsum is simply dummy text of the <span id="resaltado" class="rojo amarillo">printing and typesetting</span> industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </br>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </br>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.     
+    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+
+    <p>Lorem Ipsum is simply <i>dummy text</i> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </br>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+    
+    <hr/>
+        <h2>
+            Imagenes en html
+        </h2>
+        <img src="./imagenes/1.jpg" alt="imagen 1" title="camisa" width="255px">
+    <hr/>
+
+    <h3>
+      Tercer encabezado de la pagina  
+    </h3>    
+
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <strong>Lorem Ipsum</strong> has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </br>It has survived not only five centuries, but also the leap into electronic typesetting, <em>remaining essentially unchanged</em>. 
+    
+        <blockquote>
+            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+        </blockquote>
+
+    </p>
+    
+    <h3>FORMULARIO</h3>
+
+    <form action="">
+        <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre">
+        </p>
+
+        <p>
+            <label for="descripcion">Descripción</label>
+            <textarea name="descripcion" id="" cols="30" rows="10"></textarea>
+        </p>
+
+        
+        <input type="radio" name="genero" value="hombre"> Hombre <br>
+        <input type="radio" name="genero" value="mujer"> Mujer <br>
+        <input type="radio" name="genero" value="ninguno"> Ninguno <br>
+
+        <select name="generodos" id="">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+            <option value="ninguno">Ninguno</option>
+        </select>
+
+        <input type="submit" value="Enviar formulario">
+
+    </form>
+
+    <h3>Listado de frutas</h3>
+    <ol>
+        <li>Manzana
+            <ul>
+                <li>Roja</li>
+                <li>Verde</li>
+            </ul>
+        </li>
+        <li>Naranja</li>
+        <li>Pera</li>
+        <li>Sandia</li>
+    </ol>
+
+    <ul>
+        <li>Manzana</li>
+        <li>Naranja</li>
+        <li>Pera</li>
+        <li>Sandia</li>
+    </ul>
+
+    <h3>Tablas</h3>
+    <table border="1">
+        <tr>
+            <th>nombre</th>
+            <th>apellidos</th>
+            <th>pais</th>
+        </tr>
+        <tr>
+            <td>JHON</td>
+            <td>MUESES</td>
+            <td>COLOMBIA</td>
+        </tr>
+        <tr>
+            <td>DANIELA</td>
+            <td colspan="2">BAEZ</td>
+
+        </tr>
+    </table>
+
+
+   
+</body>
+</html>
