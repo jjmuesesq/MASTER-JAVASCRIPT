@@ -7,6 +7,11 @@ var year = 2021;
 while(year != 1991){
     //ejecuta esto
     console.log("Estamos en el año: "+year);
+
+    if(year == 2000){
+        break;
+    }
+
     year--;
 }
 
